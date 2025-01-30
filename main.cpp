@@ -9,7 +9,7 @@ int main()
     std::cout << "Sqrt(9) = " << mySqrt(9) << '\n';
 
     //BasicOperations
-    std::cout << "Addition of 5 and 3: " << MathOperations::add(5, 3) << '\n';
+    std::cout << "Addition of 5 and 3: " << MathOperations::sum(5, 3) << '\n';
     std::cout << "Subtraction of 5 and 3: " << MathOperations::subtract(5, 3) << '\n';
 
     //AdvancedOperations
