@@ -1,5 +1,5 @@
-#ifndef ADVANCEDMATH_H
-#define ADVANCEDMATH_H
+#ifndef ADVANCEDOPERATIONS_H
+#define ADVANCEDOPERATIONS_H
 
 class AdvancedMath {
 public:
