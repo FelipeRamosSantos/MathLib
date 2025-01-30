@@ -1,7 +1,7 @@
 #include <iostream>
-#include "MyMathLib.h"
-#include "src/BasicOperations.h"
-#include "src/AdvancedOperations.h"
+#include "MathLib/src/MyMathLib.h"
+#include "MathLib/src/BasicOperations.h"
+#include "MathLib/src/AdvancedOperations.h"
 
 int main()
 {

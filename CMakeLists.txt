@@ -5,11 +5,16 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
         main.cpp
-        MyMathLib.h
+        src/MyMathLib.h
+        src/BasicOperations.h
+        src/BasicOperations.cpp
+        src/AdvancedOperations.h
+        src/AdvancedOperations.cpp
 )
 
 
-add_executable(unit_test main.cpp)
+# Add the main executable
+add_executable(unit_test ${SOURCES})
 
 # Opciones
 option(ENABLE_TESTING "Enable a Unit Testing build." ON)
@@ -29,11 +34,14 @@ if(ENABLE_TESTING)
 
     # Archivos de pruebas
     set(TEST_SOURCES
-        test.cpp
+        MathLib/tests/test.cpp
     )
 
     # Crear ejecutable de pruebas
     add_executable(test_suite ${TEST_SOURCES})
+
+    # Incluir directorios de GoogleTest
+    target_include_directories(test_suite PRIVATE ${googletest_SOURCE_DIR}/include)
 
     # Enlazar GoogleTest
     target_link_libraries(test_suite PRIVATE gtest gtest_main)
