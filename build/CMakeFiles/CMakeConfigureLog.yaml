@@ -1,0 +1,458 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versión de MSBuild 17.8.5+b5265ef37 para .NET Framework
+      Compilación iniciada a las 29/01/2025 07:52:41 p. m..
+      
+      Proyecto "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
+        Creando directorio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Se creará "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminará el archivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilación del proyecto terminada "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" (destinos predeterminados).
+      
+      Compilación correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.28
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/3.31.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versión de MSBuild 17.8.5+b5265ef37 para .NET Framework
+      Compilación iniciada a las 29/01/2025 07:52:42 p. m..
+      
+      Proyecto "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se creará "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminará el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilación del proyecto terminada "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilación correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:00.75
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/3.31.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-4e3sio"
+      binary: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-4e3sio"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-4e3sio'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7fa8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versión de MSBuild 17.8.5+b5265ef37 para .NET Framework
+        Compilación iniciada a las 29/01/2025 07:52:44 p. m..
+        
+        Proyecto "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e3sio\\cmTC_7fa8a.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_7fa8a.dir\\Debug\\".
+          La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
+          Creando directorio "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e3sio\\Debug\\".
+          Creando directorio "cmTC_7fa8a.dir\\Debug\\cmTC_7fa8a.tlog\\".
+        InitializeBuildStatus:
+          Se creará "cmTC_7fa8a.dir\\Debug\\cmTC_7fa8a.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_7fa8a.dir\\Debug\\cmTC_7fa8a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fa8a.dir\\Debug\\\\" /Fd"cmTC_7fa8a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Compilador de optimización de C/C++ de Microsoft (R) versión 19.38.33135 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fa8a.dir\\Debug\\\\" /Fd"cmTC_7fa8a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e3sio\\Debug\\cmTC_7fa8a.exe" /INCREMENTAL /ILK:"cmTC_7fa8a.dir\\Debug\\cmTC_7fa8a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-4e3sio/Debug/cmTC_7fa8a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-4e3sio/Debug/cmTC_7fa8a.lib" /MACHINE:X64  /machine:x64 cmTC_7fa8a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7fa8a.vcxproj -> C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e3sio\\Debug\\cmTC_7fa8a.exe
+        FinalizeBuildStatus:
+          Se eliminará el archivo "cmTC_7fa8a.dir\\Debug\\cmTC_7fa8a.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_7fa8a.dir\\Debug\\cmTC_7fa8a.tlog\\cmTC_7fa8a.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e3sio\\cmTC_7fa8a.vcxproj" (destinos predeterminados).
+        
+        Compilación correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.94
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33135.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-56n1ew"
+      binary: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-56n1ew"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-56n1ew'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f8108.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versión de MSBuild 17.8.5+b5265ef37 para .NET Framework
+        Compilación iniciada a las 29/01/2025 07:52:45 p. m..
+        
+        Proyecto "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-56n1ew\\cmTC_f8108.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_f8108.dir\\Debug\\".
+          La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
+          Creando directorio "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-56n1ew\\Debug\\".
+          Creando directorio "cmTC_f8108.dir\\Debug\\cmTC_f8108.tlog\\".
+        InitializeBuildStatus:
+          Se creará "cmTC_f8108.dir\\Debug\\cmTC_f8108.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_f8108.dir\\Debug\\cmTC_f8108.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8108.dir\\Debug\\\\" /Fd"cmTC_f8108.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimización de C/C++ de Microsoft (R) versión 19.38.33135 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8108.dir\\Debug\\\\" /Fd"cmTC_f8108.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-56n1ew\\Debug\\cmTC_f8108.exe" /INCREMENTAL /ILK:"cmTC_f8108.dir\\Debug\\cmTC_f8108.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-56n1ew/Debug/cmTC_f8108.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-56n1ew/Debug/cmTC_f8108.lib" /MACHINE:X64  /machine:x64 cmTC_f8108.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f8108.vcxproj -> C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-56n1ew\\Debug\\cmTC_f8108.exe
+        FinalizeBuildStatus:
+          Se eliminará el archivo "cmTC_f8108.dir\\Debug\\cmTC_f8108.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_f8108.dir\\Debug\\cmTC_f8108.tlog\\cmTC_f8108.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-56n1ew\\cmTC_f8108.vcxproj" (destinos predeterminados).
+        
+        Compilación correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.72
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33135.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:93 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-ukhrx3"
+      binary: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-ukhrx3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-ukhrx3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_42c26.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versión de MSBuild 17.8.5+b5265ef37 para .NET Framework
+        Compilación iniciada a las 29/01/2025 07:52:57 p. m..
+        
+        Proyecto "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\cmTC_42c26.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_42c26.dir\\Debug\\".
+          La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
+          Creando directorio "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\Debug\\".
+          Creando directorio "cmTC_42c26.dir\\Debug\\cmTC_42c26.tlog\\".
+        InitializeBuildStatus:
+          Se creará "cmTC_42c26.dir\\Debug\\cmTC_42c26.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_42c26.dir\\Debug\\cmTC_42c26.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42c26.dir\\Debug\\\\" /Fd"cmTC_42c26.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\src.c"
+          Compilador de optimización de C/C++ de Microsoft (R) versión 19.38.33135 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42c26.dir\\Debug\\\\" /Fd"cmTC_42c26.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\src.c"
+          src.c
+        C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\cmTC_42c26.vcxproj]
+        Compilación del proyecto terminada "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\cmTC_42c26.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\cmTC_42c26.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhrx3\\cmTC_42c26.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:93 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-6tsv25"
+      binary: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-6tsv25"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-6tsv25'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_611be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versión de MSBuild 17.8.5+b5265ef37 para .NET Framework
+        Compilación iniciada a las 29/01/2025 07:52:58 p. m..
+        
+        Proyecto "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\cmTC_611be.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_611be.dir\\Debug\\".
+          La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
+          Creando directorio "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\Debug\\".
+          Creando directorio "cmTC_611be.dir\\Debug\\cmTC_611be.tlog\\".
+        InitializeBuildStatus:
+          Se creará "cmTC_611be.dir\\Debug\\cmTC_611be.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_611be.dir\\Debug\\cmTC_611be.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_611be.dir\\Debug\\\\" /Fd"cmTC_611be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\CheckFunctionExists.c"
+          Compilador de optimización de C/C++ de Microsoft (R) versión 19.38.33135 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_611be.dir\\Debug\\\\" /Fd"cmTC_611be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\Debug\\cmTC_611be.exe" /INCREMENTAL /ILK:"cmTC_611be.dir\\Debug\\cmTC_611be.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-6tsv25/Debug/cmTC_611be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-6tsv25/Debug/cmTC_611be.lib" /MACHINE:X64  /machine:x64 cmTC_611be.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\cmTC_611be.vcxproj]
+        Compilación del proyecto terminada "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\cmTC_611be.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\cmTC_611be.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tsv25\\cmTC_611be.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:93 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-o4ei4w"
+      binary: "C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-o4ei4w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-o4ei4w'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_11c34.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versión de MSBuild 17.8.5+b5265ef37 para .NET Framework
+        Compilación iniciada a las 29/01/2025 07:52:59 p. m..
+        
+        Proyecto "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\cmTC_11c34.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_11c34.dir\\Debug\\".
+          La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
+          Creando directorio "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\Debug\\".
+          Creando directorio "cmTC_11c34.dir\\Debug\\cmTC_11c34.tlog\\".
+        InitializeBuildStatus:
+          Se creará "cmTC_11c34.dir\\Debug\\cmTC_11c34.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_11c34.dir\\Debug\\cmTC_11c34.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11c34.dir\\Debug\\\\" /Fd"cmTC_11c34.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\CheckFunctionExists.c"
+          Compilador de optimización de C/C++ de Microsoft (R) versión 19.38.33135 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11c34.dir\\Debug\\\\" /Fd"cmTC_11c34.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\Debug\\cmTC_11c34.exe" /INCREMENTAL /ILK:"cmTC_11c34.dir\\Debug\\cmTC_11c34.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-o4ei4w/Debug/cmTC_11c34.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Documents/semestre 5/mathlibbbb/MathLib/build/CMakeFiles/CMakeScratch/TryCompile-o4ei4w/Debug/cmTC_11c34.lib" /MACHINE:X64  /machine:x64 cmTC_11c34.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\cmTC_11c34.vcxproj]
+        Compilación del proyecto terminada "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\cmTC_11c34.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\cmTC_11c34.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\Admin\\Documents\\semestre 5\\mathlibbbb\\MathLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4ei4w\\cmTC_11c34.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.52
+        
+      exitCode: 1
+...

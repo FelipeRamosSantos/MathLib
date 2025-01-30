@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Documents\semestre 5\mathlibbbb\MathLib\build\CMakeFiles\e53a1ba0127cfa48cac0cead1c3ae5d7\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E04C3E70-5BF7-3861-958E-3EEE7E95B794}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
