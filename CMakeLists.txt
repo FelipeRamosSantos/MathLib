@@ -3,18 +3,20 @@ project(unit_test)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# Source files for the main executable
 set(SOURCES
-        main.cpp
-        MyMathLib.h
+    main.cpp
+    src/BasicOperations.cpp
+    src/AdvancedOperations.cpp
 )
 
+# Add the main executable
+add_executable(unit_test ${SOURCES})
 
-add_executable(unit_test main.cpp)
-
-# Opciones
+# Option to enable testing
 option(ENABLE_TESTING "Enable a Unit Testing build." ON)
 
-# Descarga GoogleTest usando FetchContent
+# Download GoogleTest using FetchContent
 include(FetchContent)
 FetchContent_Declare(
     googletest
@@ -23,21 +25,22 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
-# Si se habilitan las pruebas, agrega GoogleTest y las pruebas unitarias
+# If testing is enabled, add GoogleTest and unit tests
 if(ENABLE_TESTING)
     enable_testing()
 
-    # Archivos de pruebas
+    # Test files
     set(TEST_SOURCES
-        test.cpp
+        tests/AdvancedOperationsTests.cpp
+        tests/BasicOperationsTests.cpp
     )
 
-    # Crear ejecutable de pruebas
-    add_executable(test_suite ${TEST_SOURCES})
+    # Create test executable
+    add_executable(test_suite ${TEST_SOURCES} src/BasicOperations.cpp src/AdvancedOperations.cpp)
 
-    # Enlazar GoogleTest
+    # Link GoogleTest
     target_link_libraries(test_suite PRIVATE gtest gtest_main)
 
-    # Registrar pruebas con CTest
+    # Register tests with CTest
     add_test(NAME AllTests COMMAND test_suite)
 endif()
